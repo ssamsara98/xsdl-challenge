@@ -1,0 +1,91 @@
+.text-darkblue {
+  color: #094052 !important;
+}
+
+.text-green {
+  color: #68a329 !important;
+}
+
+.brand-logo {
+  width: 200px;
+  height: 50px;
+  background-image: url("../img/novogene.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../img/homepage2.png");
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-about {
+  position: absolute;
+  right: 0;
+  background-color: rgba(199, 217, 238, 0.4);
+  height: 95%;
+  padding: 0 60px;
+}
+
+.hero-about .hero-container {
+  width: 500px;
+  position: relative;
+  top: 200px;
+}
+
+.hero-container p {
+  font-size: 2rem;
+}
+
+#about {
+  background-color: #c7d9ee;
+  height: 800px;
+  padding: 100px;
+}
+
+#about > .block {
+  height: 100%;
+  padding-left: 50px;
+  margin-right: 20px;
+  position: relative;
+}
+
+#about > .block::after {
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about > .block .textblock {
+  width: 525px;
+  padding-top: 60px;
+}
+
+#about > .block .title {
+  font-size: 1.5rem;
+}
+
+#about > .block .subtitle {
+  font-size: 2rem;
+}
+
+#about > .block .desc {
+  font-size: 1.5rem;
+}
+#about > .block .about-image {
+  width: 450px;
+  height: 585px;
+  background-image: url("../img/laboratory.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 40px;
+  right: -20px;
+}
